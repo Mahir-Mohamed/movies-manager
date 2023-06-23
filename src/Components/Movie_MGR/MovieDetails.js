@@ -12,6 +12,7 @@ import {
   Stack,
   Typography,
 } from "@mui/material";
+
 import Moment from "react-moment";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -22,6 +23,7 @@ import {
 
 import CircularProgress from "@mui/material/CircularProgress";
 import { successMsg } from "../Auth/LoginError";
+
 
 export const MovieDetails = () => {
   const { id } = useParams();
@@ -49,6 +51,7 @@ export const MovieDetails = () => {
     successMsg("Movie deleted successfully!");
   };
 
+  
   return (
     <>
       <Container maxWidth="lg">

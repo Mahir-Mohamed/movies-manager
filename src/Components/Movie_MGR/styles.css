@@ -9,8 +9,6 @@
   
   .movie__card {
     display: flex;
-    /* flex-wrap: wrap; */
-    /* align-self: normal; */
     align-items: center;
     align-self: normal;
     flex-direction: column;

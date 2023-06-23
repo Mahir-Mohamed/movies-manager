@@ -5,6 +5,8 @@ import {
 } from "./Reducers/ContactReducer";
 import { movieApi } from "../Components/services/movieApi";
 import movieReducer from "../Redux/movieSlice";
+
+
 const store = configureStore({
   reducer: {
     allContacts: contactReducer,

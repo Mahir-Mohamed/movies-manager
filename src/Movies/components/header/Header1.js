@@ -7,10 +7,7 @@ const Header1 = () => {
         <>
         <div className="header">
             <div className="headerCenter">
-            {/* <div className="headerLeft">
-                <Link to="/movies_imdb/popular" style={{textDecoration: "none"}}><span><b>Popular</b></span></Link>
-                <Link to="/movies_imdb/upcoming" style={{textDecoration: "none"}}><span><b>Upcoming</b></span></Link>
-            </div> */}
+            
             </div>
         </div>
         </>

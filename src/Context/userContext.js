@@ -17,8 +17,8 @@ export const UserContextProvider = (props) => {
   const [error, setError] = useState(false);
   const [existingUserData, setExistingUserData] = useState([
     {
-      username: "Madhuraj",
-      password: "madhu123",
+      username: "Mahir",
+      password: "12345",
     },
   ]);
 

@@ -1,6 +1,8 @@
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
+
 import { AddToCart } from "../../Movie_MGR/AddToCartMovies";
+
 
 const style = {
   position: "absolute",
@@ -12,6 +14,7 @@ const style = {
 export default function MovieModal(props) {
   const { isOpen, onClose } = props;
 
+  
   return (
     <div>
       <Modal

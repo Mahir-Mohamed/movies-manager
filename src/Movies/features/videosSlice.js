@@ -1,6 +1,7 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import { fetchVideos } from '../api/imdbAPI';
 
+
 export const fetchVideosAsync = createAsyncThunk(
   'videos/fetchVideos',
   async (searchQuery) => {
@@ -32,5 +33,6 @@ const videosSlice = createSlice({
       });
   },
 });
+
 
 export default videosSlice.reducer;

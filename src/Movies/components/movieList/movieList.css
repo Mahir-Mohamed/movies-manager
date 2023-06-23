@@ -1,10 +1,10 @@
 .movie__list {
-    padding: 0 3rem 3rem 3rem;
+    padding: 1 3rem 3rem 3rem;
 }
 
 .list__title {
 font-size: 1.75rem;
-margin:  2.5rem;
+margin:  3 rem;
 }
 
 .list__cards {

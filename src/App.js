@@ -4,6 +4,7 @@ import SignIn from "./Components/SignIn/SignIn";
 import SignUp from "./Components/SignUp/SignUp";
 import { Header } from "./Components/Header/Header";
 import { UserContextProvider } from "./Context/userContext";
+
 import ContactManager from "./Components/Contacts/ContactManager";
 import { Provider } from "react-redux";
 import store from "./Redux/store";
@@ -12,6 +13,7 @@ import Home from './Movies/pages/home/home';
 import MovieList from './Movies/components/movieList/movieList';
 import Movie from './Movies/pages/movieDetail/movie';
 import { MovieManager } from "./Components/Movie_MGR/MovieManager"
+
 
 function App() {
   return (
@@ -34,5 +36,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;

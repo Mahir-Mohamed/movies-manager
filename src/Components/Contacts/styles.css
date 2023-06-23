@@ -24,10 +24,10 @@
   }
   
   .button {
-    font-size: 12.7px;
+    font-size: 10px;
     font-weight: 400;
   }
   
   .addBtn {
-    background-color: hwb(0 2% 50%) !important;
+    background-color: hwb(191 2% 50%) !important;
   }

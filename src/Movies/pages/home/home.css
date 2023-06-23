@@ -1,5 +1,5 @@
 .posterImage{
-    height: 400px;
+    height: 600px;
 }
 
 .posterImage > img {
@@ -18,7 +18,7 @@
     width: 100%;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    background-image: linear-gradient(rgba(201, 203, 225, 0), rgb(0,0,0,1));
     opacity: 1;
     transition: opacity .3s;
 }   
@@ -35,8 +35,8 @@
 }
 
 .posterImage__runtime {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 3rem;
+    margin-bottom: 2rem;
 }
 
 .posterImage__rating {
