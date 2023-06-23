@@ -1,10 +1,12 @@
 import { Container } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { AddContact } from "./AddContact";
+
 import { ContactContextProvider } from "../../Context/contactContext";
 import { Route, Routes } from "react-router-dom";
 import ContactList from "./ContactList";
 import { EditContact } from "./EditContact";
+
 import axios from "../../API/axios";
 import { successMsg } from "../Auth/LoginError";
 import { ToastContainer } from "react-toastify";
@@ -34,6 +36,7 @@ const ContactManager = () => {
     successMsg("Contact Updated Successfully!");
   };
 
+
   const removeContactHandler = async (id) => {
     await axios.delete(`/contacts/${id}`);
     const newContactList = contacts.filter((contact) => {
@@ -47,6 +50,7 @@ const ContactManager = () => {
     const response = await axios.get("/contacts");
     return response.data;
   };
+
 
   useEffect(() => {
     const getAllContacts = async () => {
@@ -86,5 +90,6 @@ const ContactManager = () => {
     </div>
   );
 };
+
 
 export default ContactManager;
